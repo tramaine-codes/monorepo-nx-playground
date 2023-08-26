@@ -16,7 +16,7 @@
     "@typescript-eslint/parser": "6.4.1",
     "@vitest/coverage-v8": "0.34.3",
     "del-cli": "5.0.1",
-    "esbuild": "^0.17.17",
+    "esbuild": "0.17.17",
     "eslint": "8.48.0",
     "husky": "8.0.3",
     "lint-staged": "14.0.1",
