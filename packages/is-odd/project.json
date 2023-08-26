@@ -1,8 +1,8 @@
 {
-  "name": "is-even",
+  "name": "is-odd",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "sourceRoot": "libs/is-even/src",
+  "sourceRoot": "libs/is-odd/src",
   "targets": {
     "build": {
       "executor": "@nx/esbuild:esbuild",
@@ -12,12 +12,12 @@
         "assets": [],
         "external": ["oracledb"],
         "format": ["esm"],
-        "main": "packages/is-even/src/index.ts",
-        "outputPath": "dist/packages/is-even",
+        "main": "packages/is-odd/src/index.ts",
+        "outputPath": "dist/packages/is-odd",
         "outputFileName": "index.js",
         "platform": "node",
         "sourcemap": true,
-        "tsConfig": "packages/is-even/tsconfig.json"
+        "tsConfig": "packages/is-odd/tsconfig.json"
       },
       "configurations": {
         "development": {
