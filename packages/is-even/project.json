@@ -1,0 +1,30 @@
+{
+  "name": "is-even",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "libs/is-even/src",
+  "targets": {
+    "build": {
+      "executor": "@nx/esbuild:esbuild",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "main": "packages/is-even/src/index.ts",
+        "outputPath": "dist/packages/is-even",
+        "outputFileName": "main.js",
+        "assets": [],
+        "platform": "node",
+        "tsConfig": "packages/is-even/tsconfig.json",
+        "format": ["esm"]
+      },
+      "configurations": {
+        "development": {
+          "minify": false
+        },
+        "production": {
+          "minify": true
+        }
+      }
+    }
+  }
+}
