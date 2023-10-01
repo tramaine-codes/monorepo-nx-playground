@@ -9,23 +9,23 @@
   },
   "private": true,
   "devDependencies": {
-    "@commitlint/cli": "17.7.1",
+    "@commitlint/cli": "17.7.2",
     "@commitlint/config-conventional": "17.7.0",
-    "@nx/esbuild": "16.8.1",
-    "@nx/js": "16.8.1",
-    "@typescript-eslint/eslint-plugin": "6.7.2",
-    "@typescript-eslint/parser": "6.7.2",
-    "@vitest/coverage-v8": "0.34.4",
+    "@nx/esbuild": "16.9.1",
+    "@nx/js": "16.9.1",
+    "@typescript-eslint/eslint-plugin": "6.7.3",
+    "@typescript-eslint/parser": "6.7.3",
+    "@vitest/coverage-v8": "0.34.6",
     "del-cli": "5.1.0",
-    "esbuild": "0.19.3",
-    "eslint": "8.49.0",
+    "esbuild": "0.19.4",
+    "eslint": "8.50.0",
     "husky": "8.0.3",
     "lint-staged": "14.0.1",
-    "nx": "16.8.1",
+    "nx": "16.9.1",
     "prettier": "3.0.3",
     "testdouble": "3.19.0",
     "typescript": "5.2.2",
-    "vitest": "0.34.4"
+    "vitest": "0.34.6"
   },
   "workspaces": [
     "packages/*"
