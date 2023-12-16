@@ -11,21 +11,21 @@
   "devDependencies": {
     "@commitlint/cli": "18.4.3",
     "@commitlint/config-conventional": "18.4.3",
-    "@nx/esbuild": "17.2.0",
-    "@nx/js": "17.2.0",
-    "@typescript-eslint/eslint-plugin": "6.13.2",
-    "@typescript-eslint/parser": "6.13.2",
-    "@vitest/coverage-v8": "1.0.2",
+    "@nx/esbuild": "17.2.5",
+    "@nx/js": "17.2.5",
+    "@typescript-eslint/eslint-plugin": "6.14.0",
+    "@typescript-eslint/parser": "6.14.0",
+    "@vitest/coverage-v8": "1.0.4",
     "del-cli": "5.1.0",
-    "esbuild": "0.19.8",
-    "eslint": "8.55.0",
+    "esbuild": "0.19.9",
+    "eslint": "8.56.0",
     "husky": "8.0.3",
     "lint-staged": "15.2.0",
-    "nx": "17.2.0",
-    "prettier": "3.1.0",
+    "nx": "17.2.5",
+    "prettier": "3.1.1",
     "testdouble": "3.20.1",
     "typescript": "5.3.3",
-    "vitest": "1.0.2"
+    "vitest": "1.0.4"
   },
   "workspaces": [
     "packages/*"
