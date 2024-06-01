@@ -1,13 +1,4 @@
 {
-  "name": "monorepo-nx-playground",
-  "version": "0.0.0",
-  "type": "module",
-  "license": "MIT",
-  "scripts": {
-    "prepare": "husky install",
-    "test": "echo no test written yet"
-  },
-  "private": true,
   "devDependencies": {
     "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
@@ -27,6 +18,15 @@
     "typescript": "5.4.5",
     "vitest": "1.6.0"
   },
+  "license": "MIT",
+  "name": "monorepo-nx-playground",
+  "private": true,
+  "scripts": {
+    "prepare": "husky",
+    "test": "echo no test written yet"
+  },
+  "type": "module",
+  "version": "0.0.0",
   "workspaces": [
     "packages/*"
   ]
