@@ -30,8 +30,5 @@
   "version": "0.0.0",
   "workspaces": [
     "packages/*"
-  ],
-  "dependencies": {
-    "@types/node": "24.12.0"
-  }
+  ]
 }
